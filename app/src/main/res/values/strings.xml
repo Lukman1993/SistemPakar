@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sistem Pakar Kebun Sawit</string>
+    <string name="splash_text">Sistem Pakar Padi</string>
+    <string name="btn_mulai_diagnosa">Mulai Diagnosa</string>
+    <string name="btn_daftar_penyakit">Daftar Penyakit</string>
+    <string name="btn_tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="btn_hasil_diagnosa">Hasil Diagnosa</string>
+    <string name="tv_gejala_dipilih">Gejala yang dipilih</string>
+    <string name="tv_anak_anda">Tanaman sawit anda kemungkinan mengalami</string>
+    <string name="btn_diagnosa_ulang">Diagnosa Ulang</string>
+    <string name="btn_lihat_daftar_penyakit">Lihat Daftar Penyakit</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="penanganan">Penanganan</string>
+    <string name="tentang">Sistem Pakar Tanaman Sawit</string>
+</resources>

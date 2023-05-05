@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/llCurved">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/konsultasi"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/holo_green_dark"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/support"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Konsultasi"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/holo_green_dark" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/holo_green_dark"
+                            android:layout_marginLeft="3dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/penyakit"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/holo_green_dark"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/daftar_keluhan" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Daftar Penyakit"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/holo_green_dark" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/holo_green_dark"
+                            android:layout_marginLeft="3dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/pengobatan"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/holo_green_dark"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/penyembuhan"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Hasil Data Penelitian"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/holo_green_dark" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/holo_green_dark"
+                            android:layout_marginLeft="3dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/pestisida"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/holo_green_dark"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/pestisida"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Lokasi Penelitian"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/holo_green_dark" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/holo_green_dark"
+                            android:layout_marginLeft="3dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/b_konsultasi"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/holo_green_dark"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/bantuan_konsultasi"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Bantuan Konsultasi"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/holo_green_dark" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/holo_green_dark"
+                            android:layout_marginLeft="3dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/tentang"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/holo_green_dark"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/tentang"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="Dokumentasi Penelitian"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/holo_green_dark" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/holo_green_dark"
+                            android:layout_marginLeft="3dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
